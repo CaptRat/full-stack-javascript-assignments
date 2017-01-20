@@ -1,6 +1,6 @@
-export const name = '';
+export const name = 'Patrick';
 
-export const email = '';
+export const email = 'jpatricklogan@gmail.com';
 
 // Write code here
 console.log('Patrick');
