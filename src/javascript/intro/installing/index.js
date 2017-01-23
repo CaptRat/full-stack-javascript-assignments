@@ -2,7 +2,9 @@ export const name = 'Patrick';
 
 export const email = 'jpatricklogan@gmail.com';
 
+export const phone = '(801) 913-3733';
+
 // Write code here
-console.log ('Patrick');
-console.log ('(801)913-3733');
-console.log ('jpatricklogan@gmail.com');
+console.log (name);
+console.log (phone);
+console.log (email);
