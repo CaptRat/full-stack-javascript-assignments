@@ -1,9 +1,9 @@
-age = 35;
-string = "hello world";
-array = ["this", "is", "an", "array"];
+const age = 35;
+const string = "hello world";
+const array = ["this", "is", "an", "array"];
 let x = 1;
-infinity = 41/0;
-func = function(){ 4 + 3}
+const infinity = 41/0;
+const func = function(){ 4 + 3}
 let foo = null;
 
 
