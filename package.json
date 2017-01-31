@@ -7,7 +7,8 @@
     "build": "babel src -d dist",
     "test": "ava **/*.test.js",
     "docs": "esdoc -c ./esdoc.json",
-    "docs:open": "open ./docs/index.html"
+    "docs:open": "open ./docs/index.html",
+    "development": "./node_modules/.bin/babel-node ./tacoStoreExample"
   },
   "repository": {
     "url": "https://TylerGarlick@github.com/helio-training/full-stack-node-assignments",
