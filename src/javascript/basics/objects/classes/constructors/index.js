@@ -1,6 +1,6 @@
 // Code goes here...
 
- export class Vehicle{
+ export class Vehicle {
    constructor(engineType, numberOfDoors, make) {
      this.engineType = engineType;
      this.numberOfDoors = numberOfDoors;
@@ -9,18 +9,19 @@
  }
 
  export class Truck extends Vehicle{
-   constructor(engineType, numberOfDoors, make) {
-     super(engineType = 'V8', numberOfDoors = 1, make)
-   };
+   constructor(make) {
+     super('V8', 2, make)
+   }
  }
 
   export class Car extends Vehicle{
-    constructor (engineType = 'V4', numberOfDoors = 4, make) {
-      super(engineType, numberOfDoors, make)
+    constructor (make) {
+      super('V4', 4, make)
     }
   }
 
-  export const Prius = new Car(V4, 4, Prius);
+  export const Prius = new Car("Toyota");
 
-  export const F150 = new Truck(V8, 2, F150);
- }
+  export const F150 = new Truck("Ford");
+
+console.log(Prius);
