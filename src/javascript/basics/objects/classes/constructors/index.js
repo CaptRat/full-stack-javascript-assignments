@@ -10,18 +10,19 @@
 
  export class Truck extends Vehicle{
    constructor(make) {
-     super('V8', 2, make)
+     super('V8', 2, make);
    }
  }
 
   export class Car extends Vehicle{
     constructor (make) {
-      super('V4', 4, make)
+      super('V4', 4, make);
     }
   }
 
-  export const Prius = new Car("Toyota");
 
   export const F150 = new Truck("Ford");
+  export const Prius = new Car("Toyota");
 
-console.log(Prius);
+  console.log(Prius);
+  console.log(F150);
